@@ -23,7 +23,7 @@ if not validate_credentials(username=username, password=password):
 boundary = "POLYGON((-0.21 38.69,-0.21 38.67,-0.18 38.67,-0.18 38.69,-0.21 38.69))"
 
 
-bands = ["B01", "B02", "B03", "B08"]
+bands = ["B02", "B03", "B04", "B08"]
 images_path = Path("./images")
 SAFE_PATH = "./download_scenes"
 
